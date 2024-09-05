@@ -1,0 +1,118 @@
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+}
+.navbar-container-dark-theme {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 120px;
+  background-color: #000000;
+}
+.website-logo-navbar {
+  width: 240px;
+  height: 70px;
+  padding-left: 20px;
+}
+.navbar-un-order-list {
+  display: flex;
+  gap: 50px;
+  list-style: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.navbar-profile {
+  width: 30px;
+  height: 30px;
+}
+.profile-image {
+  width: 30px;
+  height: 30px;
+}
+.logout-button {
+  background-color: transparent;
+  color: #4f46e5;
+  border: 2px solid #4f46e5;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.mobile-view-humburger {
+  display: none;
+}
+.mobile-logout {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .mobile-view-humburger {
+    display: block;
+    cursor: pointer;
+  }
+  .navbar-profile {
+    display: none;
+  }
+  .website-logo-navbar {
+    width: 90%;
+    height: 90%;
+  }
+  .navbar-un-order-list {
+    gap: 20px;
+    margin-left: 50px;
+  }
+  .mobile-logout {
+    display: block;
+    cursor: pointer;
+  }
+  .logout-button {
+    display: none;
+  }
+}
+.humburger-showing {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000000;
+}
+.humburger-showing-light-theme {
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+}
+.humburger-container-mobile {
+  text-align: end;
+  margin-right: 60px;
+  margin-top: 10px;
+}
+.humburger-mobile-view-list {
+  width: 100%;
+  height: 100%;
+  color: #b3aaaa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.humburger-mobile-view-list-dark-theme {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.mobile-humburger-lists {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  margin-bottom: 10px;
+  margin-left: 120px;
+}
+.humburger-texts {
+  font-size: 30px;
+  font-weight: 600;
+}

@@ -1,0 +1,15 @@
+.failure-container {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-image {
+  width: 500px;
+  height: 500px;
+}
+.failure-text {
+  font-size: 30px;
+  font-weight: 600;
+}
