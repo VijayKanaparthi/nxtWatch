@@ -15,17 +15,17 @@ const NotFound = () => (
         ? 'not-found-text-dark-theme'
         : 'not-found-text'
       return (
-        <div className="not-found-container">
+        <div className='not-found-container'>
           <Navbar />
-          <div className="dividing-two-parts">
-            <div className="navigation-part">
+          <div className='dividing-two-parts'>
+            <div className='navigation-part'>
               <Navigation />
             </div>
             <div className={backgroundColor}>
               <img
-                src="https://assets.ccbp.in/frontend/react-js/nxt-watch-not-found-light-theme-img.png"
-                alt="not found"
-                className="not-found-image"
+                src='https://assets.ccbp.in/frontend/react-js/nxt-watch-not-found-light-theme-img.png'
+                alt='not found'
+                className='not-found-image'
               />
               <p className={textColor}>Page Not Found</p>
               <p>We are sorry, the page you requested could not be found.</p>
